@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+        <div class="nav-link" id="nav-links">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+           
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>Our Certificate & Online Program for 2023</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="eduford_img/certificate.jpg">
+                <h2>Our Certificate & Online Program for 2023</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing
+                     elit. Doloremque consequatur ratione eius, minima
+                      culpa sequi dolore repudiandae. Animi error est,\
+                      atque commodi molestias adipisci architecto quam,
+                     libero unde, eveniet consectetur.</p>
+                     <br>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                         elit. Nostrum ipsum ea, veritatis tempora beatae 
+                         aspernatur nulla temporibus animi ducimus exercitationem
+                          perspiciatis necessitatibus tenetur debitis, voluptates 
+                          ratione dolores. Omnis qui perferendis debitis, 
+                          dignissimos maxime animi repellendus explicabo corporis,
+                           temporibus cupiditate enim.</p>
+                           <br>
+                           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Fugit praesentium, hic ipsa fugiat deleniti impedit
+                              consequatur eaque suscipit alias doloremque! Incidunt quidem dolorum optio error similique nulla, ex unde voluptatibus perspiciatis, consectetur ut, ea possimus architecto fuga cupiditate fugiat hic provident veniam sint laboriosam vitae repellat. Recusandae minima repellat eius.</p>
+                              <br>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aspernatur eos ab, itaque labore iure dolor in consequatur omnis, veritatis blanditiis harum nemo reprehenderit eius ut tempore corporis voluptatem quisquam distinctio tempora veniam odio. Distinctio rerum nemo minus, hic sit nulla blanditiis amet repellat reprehenderit. Magni nesciunt quidem itaque possimus voluptatibus architecto voluptas, tenetur repudiandae exercitationem? Numquam delectus dolore aspernatur.</p>          
+                            <div class="comment-box">
+                                <h3>Leave a comment </h3>
+                                <form class="comment-form">
+                                    <input type="text" placeholder="Enter Your Name">
+                                    <input type="email" placeholder="Enter Email">
+                                    <textarea rows="5" placeholder="Your comment">
+                                   </textarea>
+                                   <button type="submit" class="hero-btn">Post Comment</button>
+                                </form>
+                            </div>
+                            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD </span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Nulla expedita eos ducimus facilis dignissimos<br> quod porro 
+            placeat laudantium sapiente possimus vitae magni, corporis
+             aspernatur.</p>
+             <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-square-whatsapp"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+    
+             </div>
+             <p>Made with <i class="fa fa-facebook"></i>Easy Tutorials</p>
+    </section>
+    
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
